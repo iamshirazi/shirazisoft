@@ -20,3 +20,4 @@ $(function(){
         $(this).attr("data-method", "buddies").attr("data-confrim", "Are you sure?");
     });
 })
+
