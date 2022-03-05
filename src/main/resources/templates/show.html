@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Handling Form Submission</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+    <body>
+        <h1>List of Buddies</h1>
+        <h3>Address Book Details</h3>
+
+        <p class="buddies-name" th:text="'Name: ' + ${buddies.name}"></p>
+        <p class="buddies-phone" th:text="'Phone number: ' + ${buddies.phone}"></p>
+        <p class="buddies-address" th:text="'Address: ' + ${buddies.address}"></p>
+
+        <a href="/buddies">Submit another message</a>
+    </body>
+</html>
